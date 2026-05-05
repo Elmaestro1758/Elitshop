@@ -1,0 +1,55 @@
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'Veste Abidjan Prestige',
+    price: 45000,
+    description: 'Une veste élégante en coton premium, parfaite pour les soirées chics au Plateau.',
+    image: 'https://picsum.photos/seed/veste1/600/800',
+    category: 'Homme',
+    featured: true,
+  },
+  {
+    id: '2',
+    name: 'Robe Indigo Assinie',
+    price: 35000,
+    description: 'Une robe fluide en soie avec des motifs inspirés de l\'artisanat local, idéale pour les escapades à la plage.',
+    image: 'https://picsum.photos/seed/robe1/600/800',
+    category: 'Femme',
+    featured: true,
+  },
+  {
+    id: '3',
+    name: 'Sac Babi en Cuir',
+    price: 65000,
+    description: 'Le compagnon urbain idéal, fabriqué en cuir véritable avec des finitions artisanales.',
+    image: 'https://picsum.photos/seed/sac1/600/800',
+    category: 'Accessoires',
+    featured: true,
+  },
+  {
+    id: '4',
+    name: 'Chemise Lin Grand-Bassam',
+    price: 25000,
+    description: 'Légère et respirante, cette chemise en lin est un hommage à l\'élégance coloniale de Bassam.',
+    image: 'https://picsum.photos/seed/chemise1/600/800',
+    category: 'Homme',
+  },
+  {
+    id: '5',
+    name: 'Escarpins Ivoire Shine',
+    price: 42000,
+    description: 'Escarpins indémodables pour une silhouette élancée lors de vos galas.',
+    image: 'https://picsum.photos/seed/talons1/600/800',
+    category: 'Femme',
+  },
+  {
+    id: '6',
+    name: 'Montre Horizon CI',
+    price: 125000,
+    description: 'Une montre de luxe alliant précision suisse et style ouest-africain.',
+    image: 'https://picsum.photos/seed/montre1/600/800',
+    category: 'Accessoires',
+  },
+];
